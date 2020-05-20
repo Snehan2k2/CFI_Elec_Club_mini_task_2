@@ -32,7 +32,7 @@ To check if the Arduino board is working properly, we check if the in-built LED 
 
 **Troubleshooting the code:**
 
-int buz=11;
+/int buz=11;
 int sen=2;
 
 void setup() 
@@ -50,4 +50,4 @@ void loop()
  digitalWrite(buz,HIGH);
  while(digitalRead(sen)==LOW);
  digitalWrite(buz,LOW);
-}
+}/
