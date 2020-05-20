@@ -18,4 +18,17 @@ The transmitted signal is received by the RF receiver module, which is connected
 
 **Transmitter module:**
 
+We check if the transmitter part of the circuit is connected properly. We check if the RF transmitter module, resistor and button are connected to the circuit properly and are properly wired to the HT-12E encoder.
+
+If at all there are loose connections, they are taken care of and we move ahead.
+
+Now, we check for the functionality of the components. We have to check if any component bought is faulty or doesn't meet its requirements. For example, if the IC is overheated, it means it doesn't work anymore and that it has to replaced.
+
+**Receiver module:**
+
+We check if the receiver part of the circuit is connected properly. We check if the the RF receiver module, resistor and the Arduino board are connected to the HT-12D decoder. We also check if the buzzer is connected properly to the arduino board, and that they are connected to the right pin no.s.
+
+To check if the Arduino board is working properly, we check if the in-built LED gets switched on, when the board is given power. Similarly, we check the functionality of other components.
+
+**Troubleshooting the code:**
 
