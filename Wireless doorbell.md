@@ -31,8 +31,8 @@ We check if the receiver part of the circuit is connected properly. We check if 
 To check if the Arduino board is working properly, we check if the in-built LED gets switched on, when the board is given power. Similarly, we check the functionality of other components.
 
 **Troubleshooting the code:**
-...c
-int buz=11;
+
+~int buz=11;
 int sen=2;
 
 void setup() 
@@ -50,5 +50,4 @@ void loop()
  digitalWrite(buz,HIGH);
  while(digitalRead(sen)==LOW);
  digitalWrite(buz,LOW);
-}
-...
+}~
