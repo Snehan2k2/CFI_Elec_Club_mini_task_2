@@ -4,6 +4,7 @@ The detailed project description :
 [Wireless doorbell](https://github.com/Snehan2k2/Elec_club_Mini_Task_2/blob/master/Wireless%20doorbell.md)
 
 The pipeline of the project is:
+
 Button => HT-12E Encoder IC => RF transmitter => RF receiver => HT-12D Decoder => Arduino => buzzer
 
 So, basically there are two types of modules
