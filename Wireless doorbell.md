@@ -51,22 +51,3 @@ void loop()
  while(digitalRead(sen)==LOW);
  digitalWrite(buz,LOW);
 }
-
-int gasconc = 0;
-
-void setup()
-{
-  pinMode(A0, INPUT);
-  Serial.begin(9600);
-
-  pinMode(11, OUTPUT);
-  pinMode(12, OUTPUT);
-  pinMode(7, OUTPUT);
-}
-
-void loop()
-{
-  gasconc = map(analogRead(A0), 0, 1023, 0, 1000);
-  // The output 10 bit signal is scaled to a range of
-  // 0-1000.
-  // We are assuming the thres
