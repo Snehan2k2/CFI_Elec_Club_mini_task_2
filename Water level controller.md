@@ -175,7 +175,6 @@ else
 lcd.setCursor(0,1);
 lcd.print("Motor OFF");
 }
-```
 
 
 if(s>v && m==1)
