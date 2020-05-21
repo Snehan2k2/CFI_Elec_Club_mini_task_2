@@ -48,7 +48,7 @@ void setup()
 
 pinMode(qut,INPUT);
 pinMode(hlf,INPUT);
-pinMode(qut,INPUT);
+pinMode(thf,INPUT);
 pinMode(ful,INPUT);
 pinMode(sump,INPUT);
 pinMode(motor,OUTPUT);
