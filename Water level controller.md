@@ -152,9 +152,7 @@ lcd.setCursor(5,0);
 lcd.print("LOW");
 b=0;
 }
-```
-Code for the LED to show that the water level is LOW
-```c++
+
 else
 {
 digitalWrite(motor,LOW);
@@ -163,6 +161,10 @@ lcd.print("ERROR!");
 b=1;
 }
 }}}
+```
+Code for the LED to show that the water level is LOW, or if not for the four possibilities, it displays ERROR
+
+```c++
 if(i==HIGH)
 {
 lcd.setCursor(0,1);
@@ -173,7 +175,7 @@ else
 lcd.setCursor(0,1);
 lcd.print("Motor OFF");
 }
-
+```
 
 
 if(s>v && m==1)
