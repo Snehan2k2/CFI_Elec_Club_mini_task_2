@@ -52,4 +52,4 @@ void loop()
  digitalWrite(buz,LOW);
 }
 ```
-The code ensures that if the sensor is high, that is that the 
+The code ensures that if the sensor is high, that is when the receiver receives signals from the transmitter, i.e when the button is pressed, the buzzer is turned ON, when the sensor is low, the buzzer is switched OFF.
