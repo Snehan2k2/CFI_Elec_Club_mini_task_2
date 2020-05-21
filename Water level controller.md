@@ -152,8 +152,10 @@ lcd.setCursor(5,0);
 lcd.print("LOW");
 b=0;
 }
+```
+Code for the LED to show that the water level is LOW
+```c++
 else
-
 {
 digitalWrite(motor,LOW);
 lcd.setCursor(0,0);
