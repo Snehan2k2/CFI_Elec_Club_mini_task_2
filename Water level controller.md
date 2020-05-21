@@ -67,6 +67,10 @@ h=analogRead(hlf);
 t=analogRead(thf);
 f=analogRead(ful);
 lcd.clear();
+```
+The variables required for the code are brought in and are initialised.
+
+```c++
 
 if(f>v && t>v && h>v && q>v )
 {
@@ -80,6 +84,7 @@ lcd.print("FULL");
 m=0;
 b=0;
 }
+
 else
 {
 if(f<v && t>v && h>v && q>v)
