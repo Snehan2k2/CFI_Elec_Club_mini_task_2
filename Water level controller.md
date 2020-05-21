@@ -68,7 +68,7 @@ t=analogRead(thf);
 f=analogRead(ful);
 lcd.clear();
 ```
-The variables required for the code are brought in and are initialised.
+The variables required for the code are brought in and some of them are initialised
 
 ```c++
 
@@ -84,7 +84,10 @@ lcd.print("FULL");
 m=0;
 b=0;
 }
+```
+Code for the LCD show that the water level if FULL
 
+```c++
 else
 {
 if(f<v && t>v && h>v && q>v)
@@ -98,6 +101,10 @@ lcd.setCursor(5,0);
 lcd.print("3/4th");
 b=0;
 }
+```
+Code for the LED to show that the water level is 3/4th
+
+```c++
 else
 {
 if(f<v && t<v && h>v && q>v)
@@ -112,6 +119,10 @@ lcd.print("HALF");
 m=1;
 b=0;
 }
+```
+Code for the LED to show that the water level is HALF
+
+```c++
 else
 if(f<v && t<v && h<v && q>v)
 {
@@ -124,6 +135,10 @@ lcd.setCursor(5,0);
 lcd.print("1/4th");
 b=0;
 }
+```
+Code for the LED to show that the water level is 1/4th
+
+```c++
 else
 {
 if(f<v && t<v && h<v && q<v)
